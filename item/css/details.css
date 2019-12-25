@@ -1,0 +1,97 @@
+body {
+	background: #f3f3f3;
+}
+
+.M-sex-box {
+	width: 1180px;
+	/* 
+		min-width: 1200px; 
+	*/
+	margin: 0 auto;
+}
+
+.M-sex-diu {
+	width: 684px;
+	/*
+		border: 1px solid #ccc;
+	*/
+	margin: 0 auto;
+}
+
+.M-box-shou {
+	margin-top: 36px;
+}
+
+.M-box-shou p {
+	display: inline-block;
+	font-size: 12px;
+}
+
+.M-box-shou p:nth-child(1) {
+	color: rgb(124, 78, 35);
+}
+
+.M-box-shou p:nth-child(2) {
+	color: #999999;
+}
+
+.M-box-shou p:nth-child(3) {
+	color: rgb(124, 78, 35);
+	cursor: pointer;
+}
+
+.M-box-out {
+	margin-top: 25px;
+}
+
+.M-box-out p:nth-child(1) {
+	color: rgb(124, 78, 35);
+	font-size: 9px;
+	line-height: 14px;
+}
+
+.M-box-out p:nth-child(2) {
+	font-size: 9px;
+	color: #999999;
+	line-height: 14px;
+}
+
+.M-box-woe {
+	margin-top: 15px;
+}
+
+.M-box-woe h2 {
+	font-size: 31px;
+	color: rgb(34, 34, 34);
+}
+
+.M-br {
+	width: 683px;
+	height: 2px;
+	background: #999999;
+	margin-top: 28px;
+}
+
+.M-text-details {
+	width: 582px;
+	margin-top: 48px;
+	box-sizing: border-box;
+	padding: 0 0 0 50px;
+}
+
+.M-text-details p {
+	width: 582px;
+	color: rgb(102, 102, 102);
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.M-details-img1 {
+	width: 582px;
+	margin-top: 30px;
+}
+
+.M-details-img2 {
+	width: 582px;
+	margin-top: 35px;
+}

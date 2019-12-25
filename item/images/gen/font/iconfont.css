@@ -1,0 +1,25 @@
+@font-face {
+	font-family:"WebFont.eot";
+	src: url("iconfont.eot");
+	src: url("webfont.eot?iefix")format("embedded-opentype");
+	url('WebFont.woff') format('woff'),
+	url('WebFont.ttf') format('truetype'), 
+	url('WebFont.svg#webfont') format('svg'); 
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-zuo:before {
+  content: "\e63d";
+}
+
+.icon-you:before {
+  content: "\e626";
+}
+

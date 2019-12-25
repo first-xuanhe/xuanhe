@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>联系我们</title>
+		<link rel="stylesheet" type="text/css" href="../css/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/contact.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/base.css"/>
+		<link rel="stylesheet" type="text/css" href="../images/tang/fonts/iconfont.css"/>
+		
+		
+		<script src="../js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/base.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!-- 导航 -->
+		<div class="xx-box-lists">
+			<div class="xx-content">
+				<div class="xx-listlogo">
+					<img src="../images/logo.png" >
+				</div>
+				<div class="xx-box-list">
+					<ul>
+						<li><a href="../index.html">首页</a></li>
+						<li><a href="./product.html">产品中心</a></li>
+						<li><a href="./about-xuan.html">关于煊赫</a></li>
+						<li><a href="./press.html">合作伙伴</a></li>
+						<li><a class="xx-active" href="./contact.html">联系我们</a></li>
+					</ul>
+				</div>
+				<div class="xx-smallbiao">
+					<a href=""><i class="iconfont icon-weixin"></i></a>
+					<a href=""><i class="iconfont icon-weibo"></i></a>
+					<a href="contact.html"><i class="iconfont icon-iconfront-"></i></a>
+				</div>
+			</div>
+		</div>
+		
+		    <div id="M-cont-box">
+		    	<!--导航图-->
+				<div class="page-body-title" style="">
+					<h1>联系我们</h1>
+					<p>CONTACT US</p>	
+				</div>
+		   		<!--煊赫-->
+		   		<div class="M-cont-text">
+		   			<p>北京煊赫电子商务有限公司</p>
+		   			<p>与我们保持联系,是解决您一切问题的有效途径</p>
+		   		</div>     			
+		    	<!--联系我们列表-->
+		    	<div class="M-cont-ulist">
+		    		<ul class="M-cont-Ul">
+		    			<li>
+		    				<img src="../images/mao/ss2.png"/>
+		    				<p>联系电话</p>
+		    				<span>136-5368-9893</span>
+		    			</li>
+						<li class="line"><img src="../images/mao/line_07.png" ></li>
+		    			<li>
+		    				<img src="../images/mao/ss1.png"/>
+		    				<p>联系地址</p>
+		    				<span>北京市大新区金苑路32号1</br>栋2层221室</span>
+		    			</li>
+						<li class="line"><img src="../images/mao/line_07.png" ></li>
+		    			<li>
+		    				<img src="../images/mao/yus1.png"/>
+		    				<p>服务邮箱</p>
+		    				<span>89893@163.com</span>
+		    			</li>
+		    		</ul>
+		    	</div>
+		    	<!--百度地图-->
+		    	 <div id="allMap"></div>
+		    </div>
+		    <!-- 底部 -->
+		<footer>
+			<div class="footer-content">
+				<div class="footer_left">
+					<ul>
+						<li><a href="./product.html">产品中心</a></li>
+						<li><a href="./about-xuan.html">关于煊赫</a></li>
+						<li><a href="./press.html">合作伙伴</a></li>
+						<li><a href="./contact.html">联系我们</a></li>
+					</ul>
+					<div class="txt">
+						<p>No.293,Kaishan Road,Chuanshan District,Suining City,Sichuan Provinc</p>
+						<p>地址：北京市大兴区金苑路32号1幢2层221室</p>
+					</div>
+					<div class="tel">
+						<p>Tel: 0825-2287099</p>
+						<div class="tel-con">
+							<p><span>网站地图</span>|<span>联系我们</span></p>
+							<p><a href="./contact.html"><i class="iconfont icon-jiaruwomen"></i>加入我们</a><a href="./contact.html"><i class="iconfont icon-youxiang"></i>企业邮箱</a></p>
+						</div>
+					</div>
+					<p class="text">Copyright2017，YONG Yi Group | All rights reserved 备案号:蜀ICP备11019746号网站设计：赛门仕博</p>
+				</div>
+				<div class="footer_right">
+					<div class="img">
+						<img src="../images/tang/wechat.png" alt="...">
+						<p>煊赫微信公众号</p>
+					</div>
+					<a href="#" class="top"><i class="iconfont icon-fanhuidingbu"></i><span>BACK</span><span>THE</span><span>TOP</span></a>
+				</div>
+			</div>
+		</footer>
+
+		
+	</body>
+	
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Tsysj1oxCFHwq527G3H58C7gydhFeLhU"></script>
+ 
+ <script type="text/javascript">
+
+	// 百度地图API功能
+	var map = new BMap.Map("allMap");
+	var point = new BMap.Point(116.370125,39.764925);
+	var marker = new BMap.Marker(point);  // 创建标注
+	map.addOverlay(marker);              // 将标注添加到地图中
+	map.centerAndZoom(point, 15);
+	var opts = {
+	  width : 600,     // 信息窗口宽度
+	  height: 140,     // 信息窗口高度
+	  color:"#fff",
+	  enableMessage:true,//设置允许信息窗发送短息
+	  message:""
+	}
+	var infoWindow = new BMap.InfoWindow("", opts);  // 创建信息窗口对象 
+	marker.addEventListener("click", function(){          
+		map.openInfoWindow(infoWindow,point); //开启信息窗口
+	});
+	 map.enableScrollWheelZoom(true); 
+
+</script>
+ 
+</html>
