@@ -9,5 +9,8 @@ $(function(){
 			scrollTop:0
 		})
 	})
+	$(".xx-web p").click(function(){
+		$(".box-list").slideToggle();
+	})
 })
 

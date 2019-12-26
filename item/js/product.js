@@ -18,7 +18,8 @@ $(function(){
 			
 		})
 		//$(".product-list").css({width:num/4*86+"vw"})
-			$(".product-list").css({width:num/4*1038+"px"})
+			// $(".product-list").css({width:num/4*1038+"px"})
+			// $(".product-list").css({width:860+"px"})
 	//分页器
 		page(num);
 		

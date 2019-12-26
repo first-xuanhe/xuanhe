@@ -1,0 +1,16 @@
+{
+  "id": "1581819",
+  "name": "改版煊赫",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1440903",
+      "name": "全部",
+      "font_class": "quanbu",
+      "unicode": "e639",
+      "unicode_decimal": 58937
+    }
+  ]
+}
